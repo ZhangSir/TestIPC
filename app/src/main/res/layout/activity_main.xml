@@ -21,4 +21,25 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_messenger"
         android:text="AIDL" />
+
+    <Button
+        android:id="@+id/btn_binder_pool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_aidl"
+        android:text="Binder连接池" />
+
+    <Button
+        android:id="@+id/btn_content_provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_binder_pool"
+        android:text="ContentProvider" />
+
+    <Button
+        android:id="@+id/btn_socket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_content_provider"
+        android:text="socket" />
 </RelativeLayout>
